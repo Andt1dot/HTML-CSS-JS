@@ -7,19 +7,51 @@
     <link href="css/bootstrap/bootstrap.css" rel="stylesheet"/>
     <link href="css/style/style.css" type="text/css"  rel="stylesheet"/>
     <title>My_Gallery</title>
+    <script src="./js/script.js"></script>
 </head>
 <body class="other">
-                        <div class="grid-img">
-                        <img src="https://u.yablyk.com/2019/01/anonymous.jpg" alt="">              
+
+  
+                        <button id="prev" onclick="prevSlide(1)">&#10094;</button>
+                        <button id="next" onclick="nextSlide(1)">&#10095;</button>
+                                                  <!---->  
+                        <div id="gallery" class="grid-img">
+                        <div class="item-1 image slide" id="img1" onclick="openImage(this.id)">
+                        <img src="https://u.yablyk.com/2019/01/anonymous.jpg" alt="">      
+                        </div>        
+                        <div class="item-2 image slide" id="img2" onclick="openImage(this.id)">
                         <img src="https://u.yablyk.com/2019/01/Darknet.jpg" alt="">
+                        </div>
+                        <div class="item-3 image slide" id="img3" onclick="openImage(this.id)">
                         <img src="https://i.ytimg.com/vi/J2QIvZ_xaGM/maxresdefault.jpg" alt="">
+                        </div>
+                        <div class="item-4 image slide" id="img4" onclick="openImage(this.id)">
                         <img src="https://heimdalsecurity.com/blog/wp-content/uploads/how-tor-works-1.jpg" alt="">
+                        </div>
+                        <div class="item-5 image slide" id="img5" onclick="openImage(this.id)">
                         <img src="https://res.cloudinary.com/gadgetman35-ru/image/upload/h_400,w_800/v1560754363/MTzQd5ENaE_keskcr.jpg" alt="">
+                        </div>
+                        <div class="item-6 image slide" id="img6" onclick="openImage(this.id)">
                         <img src="https://drfone.wondershare.com/images/article/2018/10/dark-net-Dangers.jpg" alt="">
+                        </div>
+                        <div class="item-7 image slide" id="img7" onclick="openImage(this.id)">
                         <img src="http://media.bizj.us/view/img/10084476/the-darknet*750xx2713-1531-0-10.jpg" alt="">
+                        </div>
+                        <div class="item-8 image slide" id="img8" onclick="openImage(this.id)">
                         <img src="https://news.bitcoin.com/wp-content/uploads/2019/06/darknet.jpg" alt="">
+                        </div>
+                        <div class="item-9 image slide" id="img9" onclick="openImage(this.id)">
                         <img src="https://2.bp.blogspot.com/-Mu2p-GPXVQ8/Wczx5C6b4bI/AAAAAAAAEpY/jx0Vl3u9dgwX_L_xpemK4ndBV3g4ALJ7gCEwYBhgL/s1600/4Zt9DpdDk7W8DEj94_Dark-Net-Word-Cloud-v4-ForWin.png" alt="">
+                        </div>
+                       <div class="item-10 image slide" id="img10" onclick="openImage(this.id)">
                         <img src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2018/11/darknet1-768x512.jpg" alt="">
-                  </div>
+                       </div>
+                       <div class="item-11 image slide" id="img11" onclick="openImage(this.id)">
+                       <img src="https://www.imf.org/external/pubs/ft/fandd/2019/09/images/092019/Kumar-index.jpg" alt="">
+                      </div>
+                      <div class="item-12 image slide" id="img12" onclick="openImage(this.id)">
+                      <img src="https://www.cfirstbackgroundchecks.com/wp-content/uploads/2019/04/Identity-Theft.jpg" alt="">
+                      </div>
+                      </div>
 </body>
 </html>

@@ -1,0 +1,176 @@
+.index{
+  background-image: url("1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.other
+{
+  background-image: url(2.png);
+}
+
+.grid-img
+{
+display: grid;
+grid-template-columns: 2fr 2fr 2fr;
+justify-items: center;
+}
+
+
+input#input-name.form-control
+{
+    background:transparent;
+	  color: white;
+	  border-radius: 5px;
+    border:1px solid white;
+    padding: 5px;
+}
+
+input#input-lastname.form-control
+{
+    background:transparent;
+	  color: white;
+	  border-radius: 5px;
+    border:1px solid white;
+    padding: 5px;
+}
+
+
+input#input-date.form-control
+{
+    background:transparent;
+	  color: white;
+	  border-radius: 5px;
+    border:1px solid white;
+    padding: 5px;
+}
+
+input#input-tel.form-control
+{
+    background:transparent;
+	  color: white;
+	  border-radius: 5px;
+    border:1px solid white;
+    padding: 5px;
+}
+
+input#input-email.form-control
+{
+    background:transparent;
+  	color: white;
+	  border-radius: 5px;
+    border:1px solid white;
+    padding: 5px;
+}
+
+
+input#search.form-control
+{
+	  background:transparent;
+	  color: white;
+	  border-radius: 5px;
+    border:1px solid white;
+    padding: 5px;
+}
+
+input[type="text"],[type="email"],[type="tel"]::-moz-placeholder {color: white; }
+input[type="text"]::-webkit-input-placeholder { color: white; }
+input[type="text"],[type="email"],[type="tel"]:-ms-input-placeholder { color: white; }
+input[type="text"],[type="email"],[type="tel"]::-ms-input-placeholder { color: white; }
+input[type="text"],[type="email"],[type="tel"],[type="password"]::placeholder { color: white; } 
+
+
+#inputUserName,#inputPassword
+
+{
+background-color: black;
+color: white;
+}
+
+
+
+.pagination li a {
+  background-color:transparent;
+  color: white;
+}
+
+.pagination li a:hover {
+  color: black;
+}
+
+.page-item.active .page-link {
+    background-color:transparent;
+    color: white;
+}
+
+
+.page-item.disabled .page-link {
+    background-color: black;
+    color: white;
+}
+
+.btn.btn-outline-secondary
+{
+  width: 100px;
+}
+
+h3
+{
+    margin-left: 20px;
+    text-shadow: 0.2em 0.2em 0.2em black; 
+}
+
+
+/* AICI */
+
+#gallery {
+    width: 1000px; 
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255,255, 0.8);
+}
+
+
+.active .image {
+    display: none;
+}
+
+
+.active .open-image {
+    display: block;
+}
+
+.image {
+    width: 25%;
+}
+
+.image img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.active {
+    display: block;
+}
+
+.open-image {
+    position: fixed;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    top: 70px;
+}
+
+.open-image img {
+    width: 100%;
+    height: 500px;
+}
+
+ 
+

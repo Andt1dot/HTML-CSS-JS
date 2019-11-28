@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Main</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="css/bootstrap/bootstrap.css" rel="stylesheet"/>
+ <link  href="css/style/style.css" type="text/css"  rel="stylesheet"/>
+</head>
+<body class="other">
+<header class="container bg-dark p-1 text-white rounded">
+<div class="row">
+<div class="col-8">
+<h3>HomePage</h3>	
+</div>
+<div class="col-2">
+<label class="mt-1"for="#">UserName</label>
+</div>
+<div class="col-2">
+<button class="btn btn-danger p-1">Logout</button>
+</div>
+</div>
+</header>
+
+<!---Search -->
+<div class="container"> 
+<div class="row mt-3">
+  <div class="col-6">
+  <div class="btn-group">
+  <a class="btn btn-dark disabled" href="#" role="button">HomePage</a>
+  <a class="btn btn-dark" href="Add_Students.html" role="button">Add/Edit list of students</a>
+  <a class="btn btn-dark" href="Add_Interes.html" role="button">Add/Edit list of interes</a>
+  </div>
+  </div>
+  <div class="col-6">
+  </div>  
+</div>
+	<div class="row mt-5">
+	<div class="col-1">
+	</div>
+	<div class="col-4">
+	<input class="form-control" type="text" placeholder="Name or LastName" id="search">
+	</div>
+	<div class="col-4">
+	<input class="form-control text-center" type="text" placeholder="Age" id="search">
+	</div>
+	<div class="col-1">
+	<button class="btn btn-outline-secondary border-white text-white">Search</button>
+    </div>
+</div>
+</div>
+ <!---TABLE-->
+ <div class="container mt-5">
+ 	<div class="row">
+  <table class="table table-bordered rounded">
+    <thead class="text-center text-white" >
+      <tr>
+        <th>ID</th>
+        <th>Nume</th>
+        <th>Prenume</th>
+        <th>Virsta</th>
+        <th>Nr.telefon</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody class="text-center text-white">
+      <tr>
+        <td>1.</td>
+        <td>Cebotari</td>
+        <td>Marin</td>
+        <td>25</td>
+        <td>060886868</td>
+        <td>cebotari.marin94@gmail.com</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Cebotari</td>
+        <td>Mariana</td>
+        <td>20</td>
+        <td>068483713</td>
+        <td>makhu98@mail.ru</td>
+        <tr>
+        <td>3.</td>
+        <td>Ecaterina</td>
+        <td>Popa</td>
+        <td>25</td>
+        <td>075654343</td>
+        <td>ecaterina.94@mail.ru</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>Gontari</td>
+        <td>Vadim</td>
+        <td>44</td>
+        <td>075745454</td>
+        <td>Gontari@mail.ru</td>
+      </tr>
+       <tr>
+        <td>5.</td>
+        <td>Nasu</td>
+        <td>Denis</td>
+        <td>16</td>
+        <td>067842161</td>
+        <td>Nasu@mail.ru</td>
+      </tr>
+       <tr>
+        <td>6.</td>
+        <td>Speianu</td>
+        <td>Andrian</td>
+        <td>18</td>
+        <td>069515786</td>
+        <td>Andrian@mail.ru</td>
+      </tr>
+      <tr>
+        <td>7.</td>
+        <td>Corețchi</td>
+        <td>Mihai</td>
+        <td>15</td>
+        <td>0784212121</td>
+        <td>Mihai@mail.ru</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<!--PAGINATION-->
+<div class="container">
+<div class="row justify-content-center">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item active">
+      <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">5</a></li>
+    <li class="page-item"><a class="page-link" href="#">6</a></li>
+    <li class="page-item"><a class="page-link" href="#">7</a></li>
+    <li class="page-item"><a class="page-link" href="#">8</a></li>
+    <li class="page-item"><a class="page-link" href="#">9</a></li>
+    <li class="page-item"><a class="page-link" href="#">10</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</div>
+</div>
+<footer class="container bg-dark text-white rounded">	
+<p class="text-center p-1">© 2019 Copyright: Cebotari Marin</p>
+ </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
